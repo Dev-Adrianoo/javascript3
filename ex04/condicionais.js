@@ -1,33 +1,33 @@
-const prompt = require('readline-sync');
+const prompt = require("readline-sync");
 
-const idade = Number(prompt.question('Qual e a sua idade?'));
+const idade = Number(prompt.question("Qual e a sua idade?"));
 
-const eMaiorDeIdade = idade >=18;
+const eMaiorDeIdade = idade >= 18;
 
-// Estrutura condicional: if/else 
+// Estrutura condicional: if/else
 
 if (eMaiorDeIdade) {
-    // faça alguma coisa...
-    console.log('Vocé e maior de idade!')
+  // faça alguma coisa...
+  console.log("Vocé e maior de idade!");
 } else {
-    console.log('Você e menor de idade!')
+  console.log("Você e menor de idade!");
 }
 
-const mediaNota = Number(prompt.question('Digite sua nota: '))
+const mediaNota = Number(prompt.question("Digite sua nota: "));
 
-if (mediaNota >=7) {
-    console.log('Você foi Aprovado! 🥳🥳🥳🥳');
-} else if (mediaNota >=5) {
-    console.log('Prova final. 😨😨😨😨');
+if (mediaNota >= 7) {
+  console.log("Você foi Aprovado! 🥳🥳🥳🥳");
+} else if (mediaNota >= 5) {
+  console.log("Prova final. 😨😨😨😨");
 } else {
-    console.log('Reprovado! 😪😪😪')
+  console.log("Reprovado! 😪😪😪");
 }
 
 const idadeDoUsuario = 18;
 const temCNH = true;
 
-if (idadeDoUsuario >=18 && temCNH) {
-    console.log('Você pode Dirigir.')
+if (idadeDoUsuario >= 18 && temCNH) {
+  console.log("Você pode Dirigir.");
 } else {
-    console.log('Você NÃO pode dirigir.')
+  console.log("Você NÃO pode dirigir.");
 }
